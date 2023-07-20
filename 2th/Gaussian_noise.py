@@ -4,7 +4,7 @@ import numpy
 import skimage
 
 plt.rc("font", family='Microsoft YaHei')
-img = plt.imread('../img/2.1.jpg')
+img = plt.imread('img/2.1.jpg')
 
 plt.subplot(221), plt.title('原始图像')
 plt.imshow(img, 'gray')
